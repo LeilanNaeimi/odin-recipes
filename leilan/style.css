@@ -12,19 +12,21 @@ body {
   line-height: 3rem;
   background-size: cover;
   background-color: #eee2de;
-  color: #636363;
   transition: background 250ms ease;
   background-color: var(--bg-color);
+  color: var(--font-color);
 }
 
 html {
   box-sizing: border-box;
   font-size: 62.5%;
   --bg-color: #272727;
+  --font-color: #fff;
 }
 
 html.dark-mode {
   --bg-color: #ffffff;
+  --font-color: #636363;
 }
 
 /*NOTE:  profile part*/
@@ -107,6 +109,7 @@ nav {
   border: 1px solid #0070f3;
   color: #0070f3;
 }
+
 /* NOTE: Footer */
 footer {
   display: flex;
@@ -131,11 +134,11 @@ footer {
 
 /*NOTE: dark mood button*/
 
-.toggle .moon,
+/* .toggle .moon,
 .toggle .sun {
   height: 1.5rem;
   width: 1.5rem;
-}
+} */
 
 .toggle {
   display: flex;
